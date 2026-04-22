@@ -18,6 +18,7 @@ detect_objects(
 
 Here are all the arguments for yolo_detect.py or yolo_segment.py:
 
+- `--target`: Classname of the target [red, green, blue]
 - `--model`: Path to a model file (e.g. `my_model.pt`).
 - `--source`: Source to run inference on. The options are:
     - Image file (example: `test.jpg`)
