@@ -170,9 +170,10 @@ def detect_objects(target_object, model_path, img_source, min_thresh=0.5, user_r
                 cv2.putText(frame, label, (xmin, label_ymin-7), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
 
                 # Count the number of objects in the image
-                object_count += 1
                 if classname == target_object:
-                    target_object_count += 1
+                    object_count += 1
+                    
+        target_object_count = max(object_count, target_object_count) 
 
         # Calculate and draw framerate (if using video, USB, or Picamera source)
         if source_type == 'video' or source_type == 'usb' or source_type == 'picamera':
