@@ -30,5 +30,5 @@ Here are all the arguments for yolo_detect.py or yolo_segment.py:
 - `--record` (optional): Record a video of the results and save it as `demo1.avi`. (If using this option, the `--resolution` argument must also be specified.)
 
 ### Deploy on Raspberry Pi
-Remember to pip install picamera2
+Remember to pip install picamera2  
 [How to Run YOLO Detection Models on the Raspberry Pi](https://www.ejtech.io/learn/yolo-on-raspberry-pi)
