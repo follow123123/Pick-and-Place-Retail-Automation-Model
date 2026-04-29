@@ -1,3 +1,17 @@
+## Candy Detection Model Classnames: 
+MMs_peanut  
+MMs_regular  
+airheads  
+gummy_worms  
+milky_way  
+nerds  
+skittles  
+snickers  
+starbust  
+three_musketeers  
+twizzlers  
+
+
 To run inference with the detection model a pi camera for red cubes with only required args, issue:
 
 ```
